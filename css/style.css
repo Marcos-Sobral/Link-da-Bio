@@ -1,0 +1,33 @@
+body 
+{
+    background: #F3F3F3;
+}
+
+
+/*grid - class*/
+.grid-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin-top: 20px;
+}
+
+.flex-container-img-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-logo{
+    height: 75px;
+    border-radius: 50px;
+}
